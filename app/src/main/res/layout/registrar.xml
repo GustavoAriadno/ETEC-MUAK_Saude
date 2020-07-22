@@ -7,99 +7,94 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:orientation="vertical"
         android:layout_gravity="center"
-        >
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/logo"
             android:layout_gravity="center"
-            />
+            android:src="@drawable/logo" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"
-            android:textColor="#e9eaf7"
-            android:textStyle="bold"
             android:layout_gravity="center"
+            android:text="Registre"
+            android:textColor="#e9eaf7"
             android:textSize="25dp"
-            />
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/et-Email"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:hint="Usuario ou E-mail"
-            android:textColorHint="#7b2e21"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_user"
-            android:drawablePadding="10dp"
             android:layout_marginTop="25dp"
             android:background="@drawable/fundobutton"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="10dp"
+            android:hint="Usuario"
+            android:inputType="textEmailAddress"
             android:padding="20dp"
-            />
+            android:textColorHint="#7b2e21" />
+
         <EditText
-            android:id="@+id/et-pass"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:hint="Senha"
-            android:textColorHint="#7b2e21"
             android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_password"
-            android:drawablePadding="10dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/fundobutton"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:hint="E-mail"
+            android:inputType="textPassword"
             android:padding="20dp"
-            />
+            android:textColorHint="#7b2e21" />
 
-        <TextView
-            android:layout_width="wrap_content"
+        <EditText
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:layout_marginRight="35dp"
-            android:fontFamily="sans-serif-medium"
-            android:text="Esqueceste a senha?"
-            android:textColor="#FFFFFF"
-            android:paddingRight="12dp"
-            android:textSize="15dp" />
+            android:background="@drawable/fundobutton"
+            android:drawableLeft="@drawable/ic_password"
+            android:drawablePadding="10dp"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColorHint="#7b2e21" />
 
         <Button
             android:layout_width="300dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
-            android:text="Login"
-            android:textColor="#fff"
             android:layout_marginTop="20dp"
             android:background="@drawable/button"
-            />
+            android:text="Registar"
+            android:textColor="#fff" />
 
         <Button
             android:layout_width="300dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
-            android:text="Entrar com google"
-            android:textColor="#7b2e21"
             android:layout_marginTop="20dp"
             android:background="@drawable/fundobutton"
             android:drawableRight="@drawable/ic_google"
             android:padding="15dp"
-            />
+            android:text="Registrar com google"
+            android:textColor="#7b2e21" />
+
         <Button
             android:layout_width="300dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
-            android:text="Entrar com Facebook"
-            android:textColor="#7b2e21"
             android:layout_marginTop="20dp"
             android:background="@drawable/fundobutton"
             android:drawableRight="@drawable/ic_facebook"
             android:padding="15dp"
-            />
+            android:text="Registrar com Facebook"
+            android:textColor="#7b2e21" />
     </LinearLayout>
 
 </LinearLayout>
