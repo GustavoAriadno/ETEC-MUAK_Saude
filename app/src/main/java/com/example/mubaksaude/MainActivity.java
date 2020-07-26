@@ -24,16 +24,16 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Produtos> adicionarEscolas() {
         ArrayList<Produtos> produtos = new ArrayList<Produtos>();
 
-        Produtos p = new Produtos("Colégio Estadual Atheneu Sergipense", "Rua Pacatuba S/N", R.drawable.atheneu);
+        Produtos p = new Produtos("Alcool em gel", "Hospital Pedreira", R.drawable.alcool_em_gel);
         produtos.add(p);
 
-        p = new Produtos("Escola Estadual General Siqueira", "Rua Sergipe S/N", R.drawable.escola3);
+        p = new Produtos("Luvas", "Pronto Socorro Jardim Republica", R.drawable.luvas);
         produtos.add(p);
 
-        produtos = new Produtos("Escola Tobias Barreto", "Av. OtonielDórea", R.drawable.escola1);
+        p = new Produtos("Protetor facial", "Hospital Pedreira", R.drawable.protetor_facial);
         produtos.add(p);
 
-        p = new Produtos("ColegioEstadual ProfGRollembergLeite", "R. Franklin de Campos Sobral, 1675", R.drawable.goncalo);
+        p = new Produtos("Mascara", "Pronto Socorro Jardim Republica", R.drawable.mascara);
         produtos.add(p);
 
         return produtos;
