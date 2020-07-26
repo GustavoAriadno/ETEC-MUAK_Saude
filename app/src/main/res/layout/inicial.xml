@@ -31,25 +31,41 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="20dp">
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button1"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:orientation="vertical"
                 android:layout_weight="1"
-                android:background="@drawable/inicialbutton"
-                android:text="Login"
-                android:textColor="#fff" />
+                >
 
-            <Button
-                android:id="@+id/button2"
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/inicialbutton"
+                    android:text="Login"
+                    android:layout_gravity="center"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:orientation="vertical"
                 android:layout_weight="1"
-                android:background="@drawable/inicialbutton"
-                android:text="Registrar"
-                android:textColor="#fff" />
+                >
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/inicialbutton"
+                    android:text="Registrar"
+                    android:textColor="#fff" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
