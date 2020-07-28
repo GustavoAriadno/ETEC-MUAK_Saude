@@ -13,17 +13,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.produtos);
+        setContentView(R.layout.menu);
 
 
 
 
-        ListView lista = (ListView) findViewById(R.id.lvProdutos);
-        ArrayList<Produtos> produtos = adicionarProdutos();
-        ArrayAdapter adapter = new ProdutosAdapter(this, produtos);
-        lista.setAdapter(adapter);
 
     }
+
     private ArrayList<Produtos> adicionarProdutos() {
         ArrayList<Produtos> produtos = new ArrayList<Produtos>();
 

@@ -16,7 +16,7 @@ public class ProdutosAdapter extends ArrayAdapter<Produtos> {
     private final ArrayList<Produtos> elementos;
 
     public ProdutosAdapter(Context context, ArrayList<Produtos> elementos) {
-        super (context, R.layout.linha, elementos);
+        super (context, R.layout.modelo_lista, elementos);
         this.context = context;
         this.elementos = elementos;
     }
@@ -24,7 +24,7 @@ public class ProdutosAdapter extends ArrayAdapter<Produtos> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View rowView = inflater.inflate(R.layout.linha, parent, false);
+        View rowView = inflater.inflate(R.layout.modelo_lista, parent, false);
 
         TextView nomeProdutos = (TextView) rowView.findViewById(R.id.nome);
         TextView endereco = (TextView) rowView.findViewById(R.id.endereco);
