@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".telaLocais"></activity>
+        <activity android:name=".telaProdutos" />
+        <activity android:name=".Registrar" />
+        <activity android:name=".Login" />
+        <activity android:name=".Inicial" />
+        <activity android:name=".Menu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
