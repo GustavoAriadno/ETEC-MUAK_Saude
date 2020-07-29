@@ -24,8 +24,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:paddingLeft="15dp"
-            android:text="Nome da escola"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title" />
+            android:text="Nome do produto"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+            android:textColor="#B3B3B3" />
 
         <TextView
             android:id="@+id/endereco"
@@ -33,7 +34,8 @@
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
             android:text="Endereço"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </LinearLayout>
