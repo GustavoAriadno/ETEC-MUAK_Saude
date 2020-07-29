@@ -14,7 +14,7 @@
         android:layout_marginTop="30dp"
         android:text="MUBAK"
         android:textColor="#fff"
-        android:textSize="42dp" />
+        android:textSize="38dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,11 +22,11 @@
         android:layout_marginLeft="40dp"
         android:text="de doutores para doutores"
         android:textColor="#fff"
-        android:textSize="28dp" />
+        android:textSize="24dp" />
 
     <ImageView
-        android:layout_width="173dp"
-        android:layout_height="159dp"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
         android:layout_gravity="center"
         android:src="@drawable/logo" />
 
@@ -44,8 +44,9 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="140dp"
-                android:layout_height="140dp"
+                android:id="@+id/produtos"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center"
                 app:cardBackgroundColor="#e9eaf7"
                 app:cardCornerRadius="8dp">
@@ -56,8 +57,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="100dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_gravity="center"
                         android:padding="0dp"
                         android:src="@drawable/produtos" />
@@ -82,8 +83,9 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="140dp"
-                android:layout_height="140dp"
+                android:id="@+id/locais"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center"
                 app:cardBackgroundColor="#e9eaf7"
                 app:cardCornerRadius="8dp">
@@ -94,8 +96,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="100dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_gravity="center"
                         android:padding="0dp"
                         android:src="@drawable/locais" />
@@ -117,11 +119,12 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:paddingTop="25dp">
+        android:paddingTop="40dp">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="140dp"
-            android:layout_height="140dp"
+            android:id="@+id/nos"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:paddingRight="100dp"
             app:cardBackgroundColor="#e9eaf7"
             app:cardCornerRadius="8dp">
@@ -132,8 +135,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:padding="0dp"
                     android:src="@drawable/nos" />

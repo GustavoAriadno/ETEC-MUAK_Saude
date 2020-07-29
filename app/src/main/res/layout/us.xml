@@ -9,46 +9,46 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="8dp"
             android:text="MUBAK"
             android:textColor="#FFF"
-            android:textSize="40dp"
+            android:textSize="38dp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="5dp"
+            android:paddingVertical="4dp"
             android:text="Sobre nós:"
             android:textColor="#e9eaf7"
-            android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textSize="24dp" />
 
         <ScrollView
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:fillViewport="true">
+            android:layout_height="390dp"
+            android:fillViewport="true"
+            android:paddingTop="4dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
+            android:padding="10dp"
             android:text="    Com 6 anos de experiência na área de tecnologia, desenvolvendo aplicativos e páginas que tem sido úteis para grandes e pequenas empresas.\n    Nós, da MUBAK, pensando diretamente no bem-estar de toda a nação, tomamos a iniciativa de criar um aplicativo que fosse útil para todos os médicos, enfermeiros e agentes de saúde que lutam diariamente por todos nós.\n    O escopo do projeto, é auxiliar os responsáveis por hospitais a organizar melhor o estoque de equipamentos hospitalares e medicamentos em suas instituições, fornecendo dados de empresas mais próximas capazes de fornecer equipamentos para todos os hospitais e laboratórios, de grande ou pequeno portes."
             android:textColor="#fff"
-            android:textSize="20dp" />
+            android:textSize="22dp" />
         </ScrollView>
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:layout_gravity="center"
             android:paddingTop="20dp"
             android:src="@drawable/etecia" />

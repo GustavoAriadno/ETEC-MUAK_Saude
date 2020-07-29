@@ -7,13 +7,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
         android:orientation="vertical"
         android:layout_gravity="center"
         >
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
             android:src="@drawable/logo"
             android:layout_gravity="center"
             />
@@ -30,37 +29,39 @@
         <EditText
             android:id="@+id/et-Email"
             android:layout_width="300dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:inputType="textEmailAddress"
             android:hint="Usuario ou E-mail"
+            android:textSize="16dp"
             android:textColorHint="#7b2e21"
             android:layout_gravity="center"
             android:drawableLeft="@drawable/ic_user"
             android:drawablePadding="10dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             android:background="@drawable/fundobutton"
-            android:padding="20dp"
+            android:paddingHorizontal="20dp"
             />
         <EditText
             android:id="@+id/et-pass"
             android:layout_width="300dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:inputType="textPassword"
             android:hint="Senha"
+            android:textSize="16dp"
             android:textColorHint="#7b2e21"
             android:layout_gravity="center"
             android:drawableLeft="@drawable/ic_password"
             android:drawablePadding="10dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/fundobutton"
-            android:padding="20dp"
+            android:paddingHorizontal="20dp"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="13dp"
             android:layout_marginRight="35dp"
             android:fontFamily="sans-serif-medium"
             android:text="Esqueceste a senha?"
@@ -69,10 +70,12 @@
             android:textSize="15dp" />
 
         <Button
+            android:id="@+id/menu"
             android:layout_width="300dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:text="Login"
+            android:textSize="14dp"
             android:textColor="#fff"
             android:layout_marginTop="20dp"
             android:background="@drawable/button"
@@ -80,10 +83,11 @@
 
         <Button
             android:layout_width="300dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:text="Entrar com google"
             android:textColor="#7b2e21"
+            android:textSize="13dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/fundobutton"
             android:drawableRight="@drawable/ic_google"
@@ -91,9 +95,10 @@
             />
         <Button
             android:layout_width="300dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:text="Entrar com Facebook"
+            android:textSize="13dp"
             android:textColor="#7b2e21"
             android:layout_marginTop="20dp"
             android:background="@drawable/fundobutton"

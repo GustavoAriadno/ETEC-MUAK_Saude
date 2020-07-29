@@ -15,19 +15,27 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.menu);
 
 
-    }
-
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.locais:
-                Intent it = new Intent(this, telaLocais.class);
+        findViewById(R.id.produtos).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(getApplicationContext(), telaProdutos.class);
                 startActivity(it);
-                break;
-            case R.id.produtos:
-                Intent ite = new Intent(this, telaProdutos.class);
-                startActivity(ite);
-                break;
-
-        }
+            }
+        });
+        findViewById(R.id.locais).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(getApplicationContext(), telaLocais.class);
+                startActivity(it);
+            }
+        });
+        findViewById(R.id.nos).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(getApplicationContext(), telaNos.class);
+                startActivity(it);
+            }
+        });
     }
+
 }
