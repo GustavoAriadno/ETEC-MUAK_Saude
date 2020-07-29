@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
                 finish();
             }
-        }, 100);
+        }, 500);
     }
 
 }
