@@ -49,7 +49,7 @@
             android:drawablePadding="10dp"
             android:hint="E-mail"
             android:textSize="16dp"
-            android:inputType="textPassword"
+            android:inputType="textEmailAddress"
             android:paddingHorizontal="20dp"
             android:textColorHint="#7b2e21" />
 
